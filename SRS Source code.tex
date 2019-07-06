@@ -69,45 +69,37 @@ Operation environment for the automated accommodation system is as listed below:
 \end{itemize}
 \subsection{Assumptions}
 Let us assume that users are used to with online payment system and online purchase functionalities. And also assume that they have at least an email or Facebook account.
-
-\section{Introduction}
-\subsection{Purpose}
-This document will show a detailed description of our software called "Online Marketplace" It will contain a step by step documentation of the software by which users and clients can buy any kind of stuff by staying at home.
-\subsection{Document Conventions}
-We will use appropriate text size for readers of all ages. Texts color will be eye soothing. There will be bordered layouts to make the reading convenient.
-\subsection{Intended Use and Audience}
-This document is mainly for the audience who is developing, designing, marketing and also wants to invest.
-\subsection{Product Scope}
-The main purpose of this software is to connect the people who has no time to do shopping or who has no time to travel two hour for buying a single product and also for those person who lives in rural area. Mostly looking at Dhaka city traffic problem basically for this traffic people lost interest to go outside for shopping or buy something that they need most. We let them know about the specification of a product and users can put their opinion.
-\subsection{Risk Definition}
-\begin{itemize}
-\item Hacker hacked our database or site.
-\item Misuse of credit card details to steal money.
-\item Bad return and refund policies. 
-\item Inadequate product details.
-\item Manipulated customer reviews.
-\end{itemize}
-\section{Overall Description}
-\subsection{Product Perspective}
-We find many people struggling with finding a suitable online shop.Many of us sometime didn't find the right product.Some of us searching some product in physical market and this is so hard for a 9 to 10 office person.Sometimes some product cost a lot.
-\subsection{Product Functions}
-There will be only one kind of users and organizer themselves. A organizer can upload photo , video and proper information of all product and reliable price tag. User can search product by category and product name.
-\subsection{User Classes and Characteristics}
-There will be one type of user:
-\begin{itemize}
-\item 1. Consumer.
-\end{itemize}
-Organizer also a kind of user cause they selling some products.
-\subsection{Operating Environment}
-Operation environment for the automated accommodation system is as listed below:
-\begin{itemize}
-\item Distributed Database.
-\item client/Server System.
-\item Database: sql database.
-\item Operating Systems: Widows, Linux, Ios.
-\item software: Any browser.(Google Chrome, Mozila Firefox, Safari, Opera.
-\item Platform: php.
-\end{itemize}
-
+\section{Requirements}
+\subsection{Functional Requirements}
+\subsubsection{Administrator:}
+•{Database Management:} Control the database and keep track of all records of customers and employee details.
+•{Contact and Giving Permission to Vendors:} Contact with the vendors and give permission to sell their product under the site after testing the product’s quality.
+•{View all details}: View the details of all employees and control the whole site.
+•{Advertising the Site}: Responsible for making advertisements for the site.
+\subsubsection{Customers:}
+    •Login: Customers must have a valid login id to enter into the site.
+	•Registration: New users can sign up by creating new ID.
+	•View and edit Own Details: Can view/edit his personal details, payment details, and details about services provided.
+	•Choosing and comparing products: Can view all available products and can compare them and make a choice for purchasing 		products.
+	•Purchasing: Can purchase any product through valid debit card.
+	•Giving Feedback to Customer Care: Can give feedback to the 24X7 Customer Care Service center about their impression for the 		site and services.
+	•Logout: Customer must logout of the site after purchasing products.
+	\subsection{Visitors:}
+	•Visiting the Site: Can only visit the site without registration.
+	
+	
+	
+\section{Non-functional Requirements}
+\subsubsection{Performance Requirements}
+• The system shall accommodate high number of items and users without any fault.
+• Responses to view information shall take no longer than 5 seconds to appear on the screen.
+\subsection{Safety Requirements}
+• System shall not cause any harm to human users.
+\subsection{Security Requirements}
+• System will use secured database
+• Normal users can just read information but they cannot edit or modify anything except their personal and some other information.
+• System will have different types of users and every user has access constraints.
+\subsection{Error handling}
+OFS shall handle expected and non expected errors in ways that prevent loss in information and long downtime period.
 
 \end{document}
